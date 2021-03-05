@@ -7,23 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72FF3C6825F0E25200E6B21E /* AutoMockableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF3C6725F0E25200E6B21E /* AutoMockableApp.swift */; };
-		72FF3C6A25F0E25200E6B21E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF3C6925F0E25200E6B21E /* ContentView.swift */; };
-		72FF3C6C25F0E25400E6B21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FF3C6B25F0E25400E6B21E /* Assets.xcassets */; };
-		72FF3C6F25F0E25400E6B21E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FF3C6E25F0E25400E6B21E /* Preview Assets.xcassets */; };
+		7212579E25F2463100612C18 /* AutoMockableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212579D25F2463100612C18 /* AutoMockableApp.swift */; };
+		721257A025F2463100612C18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212579F25F2463100612C18 /* ContentView.swift */; };
+		721257A225F2463200612C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721257A125F2463200612C18 /* Assets.xcassets */; };
+		721257A525F2463200612C18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721257A425F2463200612C18 /* Preview Assets.xcassets */; };
+		721257B025F2463300612C18 /* AutoMockableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721257AF25F2463300612C18 /* AutoMockableTests.swift */; };
+		721257BB25F2463300612C18 /* AutoMockableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721257BA25F2463300612C18 /* AutoMockableUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		721257AC25F2463300612C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7212579225F2463100612C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7212579925F2463100612C18;
+			remoteInfo = AutoMockable;
+		};
+		721257B725F2463300612C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7212579225F2463100612C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7212579925F2463100612C18;
+			remoteInfo = AutoMockable;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		72FF3C6425F0E25200E6B21E /* AutoMockable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoMockable.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		72FF3C6725F0E25200E6B21E /* AutoMockableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMockableApp.swift; sourceTree = "<group>"; };
-		72FF3C6925F0E25200E6B21E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		72FF3C6B25F0E25400E6B21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		72FF3C6E25F0E25400E6B21E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		72FF3C7025F0E25400E6B21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7212579A25F2463100612C18 /* AutoMockable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoMockable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7212579D25F2463100612C18 /* AutoMockableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMockableApp.swift; sourceTree = "<group>"; };
+		7212579F25F2463100612C18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		721257A125F2463200612C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		721257A425F2463200612C18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		721257A625F2463200612C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721257AB25F2463300612C18 /* AutoMockableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoMockableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		721257AF25F2463300612C18 /* AutoMockableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMockableTests.swift; sourceTree = "<group>"; };
+		721257B125F2463300612C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721257B625F2463300612C18 /* AutoMockableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoMockableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		721257BA25F2463300612C18 /* AutoMockableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMockableUITests.swift; sourceTree = "<group>"; };
+		721257BC25F2463300612C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		72FF3C6125F0E25200E6B21E /* Frameworks */ = {
+		7212579725F2463100612C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721257A825F2463300612C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721257B325F2463300612C18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,52 +72,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		72FF3C5B25F0E25200E6B21E = {
+		7212579125F2463100612C18 = {
 			isa = PBXGroup;
 			children = (
-				72FF3C6625F0E25200E6B21E /* AutoMockable */,
-				72FF3C6525F0E25200E6B21E /* Products */,
+				7212579C25F2463100612C18 /* AutoMockable */,
+				721257AE25F2463300612C18 /* AutoMockableTests */,
+				721257B925F2463300612C18 /* AutoMockableUITests */,
+				7212579B25F2463100612C18 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		72FF3C6525F0E25200E6B21E /* Products */ = {
+		7212579B25F2463100612C18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72FF3C6425F0E25200E6B21E /* AutoMockable.app */,
+				7212579A25F2463100612C18 /* AutoMockable.app */,
+				721257AB25F2463300612C18 /* AutoMockableTests.xctest */,
+				721257B625F2463300612C18 /* AutoMockableUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		72FF3C6625F0E25200E6B21E /* AutoMockable */ = {
+		7212579C25F2463100612C18 /* AutoMockable */ = {
 			isa = PBXGroup;
 			children = (
-				72FF3C6725F0E25200E6B21E /* AutoMockableApp.swift */,
-				72FF3C6925F0E25200E6B21E /* ContentView.swift */,
-				72FF3C6B25F0E25400E6B21E /* Assets.xcassets */,
-				72FF3C7025F0E25400E6B21E /* Info.plist */,
-				72FF3C6D25F0E25400E6B21E /* Preview Content */,
+				7212579D25F2463100612C18 /* AutoMockableApp.swift */,
+				7212579F25F2463100612C18 /* ContentView.swift */,
+				721257A125F2463200612C18 /* Assets.xcassets */,
+				721257A625F2463200612C18 /* Info.plist */,
+				721257A325F2463200612C18 /* Preview Content */,
 			);
 			path = AutoMockable;
 			sourceTree = "<group>";
 		};
-		72FF3C6D25F0E25400E6B21E /* Preview Content */ = {
+		721257A325F2463200612C18 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				72FF3C6E25F0E25400E6B21E /* Preview Assets.xcassets */,
+				721257A425F2463200612C18 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		721257AE25F2463300612C18 /* AutoMockableTests */ = {
+			isa = PBXGroup;
+			children = (
+				721257AF25F2463300612C18 /* AutoMockableTests.swift */,
+				721257B125F2463300612C18 /* Info.plist */,
+			);
+			path = AutoMockableTests;
+			sourceTree = "<group>";
+		};
+		721257B925F2463300612C18 /* AutoMockableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				721257BA25F2463300612C18 /* AutoMockableUITests.swift */,
+				721257BC25F2463300612C18 /* Info.plist */,
+			);
+			path = AutoMockableUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72FF3C6325F0E25200E6B21E /* AutoMockable */ = {
+		7212579925F2463100612C18 /* AutoMockable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72FF3C7325F0E25400E6B21E /* Build configuration list for PBXNativeTarget "AutoMockable" */;
+			buildConfigurationList = 721257BF25F2463300612C18 /* Build configuration list for PBXNativeTarget "AutoMockable" */;
 			buildPhases = (
-				72FF3C6025F0E25200E6B21E /* Sources */,
-				72FF3C6125F0E25200E6B21E /* Frameworks */,
-				72FF3C6225F0E25200E6B21E /* Resources */,
+				7212579625F2463100612C18 /* Sources */,
+				7212579725F2463100612C18 /* Frameworks */,
+				7212579825F2463100612C18 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,24 +147,68 @@
 			);
 			name = AutoMockable;
 			productName = AutoMockable;
-			productReference = 72FF3C6425F0E25200E6B21E /* AutoMockable.app */;
+			productReference = 7212579A25F2463100612C18 /* AutoMockable.app */;
 			productType = "com.apple.product-type.application";
+		};
+		721257AA25F2463300612C18 /* AutoMockableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721257C225F2463300612C18 /* Build configuration list for PBXNativeTarget "AutoMockableTests" */;
+			buildPhases = (
+				721257A725F2463300612C18 /* Sources */,
+				721257A825F2463300612C18 /* Frameworks */,
+				721257A925F2463300612C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				721257AD25F2463300612C18 /* PBXTargetDependency */,
+			);
+			name = AutoMockableTests;
+			productName = AutoMockableTests;
+			productReference = 721257AB25F2463300612C18 /* AutoMockableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		721257B525F2463300612C18 /* AutoMockableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721257C525F2463300612C18 /* Build configuration list for PBXNativeTarget "AutoMockableUITests" */;
+			buildPhases = (
+				721257B225F2463300612C18 /* Sources */,
+				721257B325F2463300612C18 /* Frameworks */,
+				721257B425F2463300612C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				721257B825F2463300612C18 /* PBXTargetDependency */,
+			);
+			name = AutoMockableUITests;
+			productName = AutoMockableUITests;
+			productReference = 721257B625F2463300612C18 /* AutoMockableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		72FF3C5C25F0E25200E6B21E /* Project object */ = {
+		7212579225F2463100612C18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					72FF3C6325F0E25200E6B21E = {
+					7212579925F2463100612C18 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					721257AA25F2463300612C18 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7212579925F2463100612C18;
+					};
+					721257B525F2463300612C18 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7212579925F2463100612C18;
 					};
 				};
 			};
-			buildConfigurationList = 72FF3C5F25F0E25200E6B21E /* Build configuration list for PBXProject "AutoMockable" */;
+			buildConfigurationList = 7212579525F2463100612C18 /* Build configuration list for PBXProject "AutoMockable" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +216,87 @@
 				en,
 				Base,
 			);
-			mainGroup = 72FF3C5B25F0E25200E6B21E;
-			productRefGroup = 72FF3C6525F0E25200E6B21E /* Products */;
+			mainGroup = 7212579125F2463100612C18;
+			productRefGroup = 7212579B25F2463100612C18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72FF3C6325F0E25200E6B21E /* AutoMockable */,
+				7212579925F2463100612C18 /* AutoMockable */,
+				721257AA25F2463300612C18 /* AutoMockableTests */,
+				721257B525F2463300612C18 /* AutoMockableUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		72FF3C6225F0E25200E6B21E /* Resources */ = {
+		7212579825F2463100612C18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72FF3C6F25F0E25400E6B21E /* Preview Assets.xcassets in Resources */,
-				72FF3C6C25F0E25400E6B21E /* Assets.xcassets in Resources */,
+				721257A525F2463200612C18 /* Preview Assets.xcassets in Resources */,
+				721257A225F2463200612C18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721257A925F2463300612C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721257B425F2463300612C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		72FF3C6025F0E25200E6B21E /* Sources */ = {
+		7212579625F2463100612C18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72FF3C6A25F0E25200E6B21E /* ContentView.swift in Sources */,
-				72FF3C6825F0E25200E6B21E /* AutoMockableApp.swift in Sources */,
+				721257A025F2463100612C18 /* ContentView.swift in Sources */,
+				7212579E25F2463100612C18 /* AutoMockableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721257A725F2463300612C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721257B025F2463300612C18 /* AutoMockableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721257B225F2463300612C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721257BB25F2463300612C18 /* AutoMockableUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		721257AD25F2463300612C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7212579925F2463100612C18 /* AutoMockable */;
+			targetProxy = 721257AC25F2463300612C18 /* PBXContainerItemProxy */;
+		};
+		721257B825F2463300612C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7212579925F2463100612C18 /* AutoMockable */;
+			targetProxy = 721257B725F2463300612C18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		72FF3C7125F0E25400E6B21E /* Debug */ = {
+		721257BD25F2463300612C18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		72FF3C7225F0E25400E6B21E /* Release */ = {
+		721257BE25F2463300612C18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +412,7 @@
 			};
 			name = Release;
 		};
-		72FF3C7425F0E25400E6B21E /* Debug */ = {
+		721257C025F2463300612C18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -284,7 +434,7 @@
 			};
 			name = Debug;
 		};
-		72FF3C7525F0E25400E6B21E /* Release */ = {
+		721257C125F2463300612C18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -306,28 +456,130 @@
 			};
 			name = Release;
 		};
+		721257C325F2463300612C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYM63Q4M4M;
+				INFOPLIST_FILE = AutoMockableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.v8tr.AutoMockableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoMockable.app/AutoMockable";
+			};
+			name = Debug;
+		};
+		721257C425F2463300612C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYM63Q4M4M;
+				INFOPLIST_FILE = AutoMockableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.v8tr.AutoMockableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoMockable.app/AutoMockable";
+			};
+			name = Release;
+		};
+		721257C625F2463300612C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYM63Q4M4M;
+				INFOPLIST_FILE = AutoMockableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.v8tr.AutoMockableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoMockable;
+			};
+			name = Debug;
+		};
+		721257C725F2463300612C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYM63Q4M4M;
+				INFOPLIST_FILE = AutoMockableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.v8tr.AutoMockableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoMockable;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72FF3C5F25F0E25200E6B21E /* Build configuration list for PBXProject "AutoMockable" */ = {
+		7212579525F2463100612C18 /* Build configuration list for PBXProject "AutoMockable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72FF3C7125F0E25400E6B21E /* Debug */,
-				72FF3C7225F0E25400E6B21E /* Release */,
+				721257BD25F2463300612C18 /* Debug */,
+				721257BE25F2463300612C18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72FF3C7325F0E25400E6B21E /* Build configuration list for PBXNativeTarget "AutoMockable" */ = {
+		721257BF25F2463300612C18 /* Build configuration list for PBXNativeTarget "AutoMockable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72FF3C7425F0E25400E6B21E /* Debug */,
-				72FF3C7525F0E25400E6B21E /* Release */,
+				721257C025F2463300612C18 /* Debug */,
+				721257C125F2463300612C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		721257C225F2463300612C18 /* Build configuration list for PBXNativeTarget "AutoMockableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721257C325F2463300612C18 /* Debug */,
+				721257C425F2463300612C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		721257C525F2463300612C18 /* Build configuration list for PBXNativeTarget "AutoMockableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721257C625F2463300612C18 /* Debug */,
+				721257C725F2463300612C18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 72FF3C5C25F0E25200E6B21E /* Project object */;
+	rootObject = 7212579225F2463100612C18 /* Project object */;
 }

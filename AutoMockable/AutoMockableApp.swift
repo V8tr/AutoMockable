@@ -2,7 +2,7 @@
 //  AutoMockableApp.swift
 //  AutoMockable
 //
-//  Created by Vadim Bulavin on 04.03.2021.
+//  Created by Vadim Bulavin on 05.03.2021.
 //
 
 import SwiftUI

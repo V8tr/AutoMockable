@@ -1,0 +1,1 @@
+"${PROJECT_DIR}/../Tools/sourcery/bin/sourcery" --config "${PROJECT_DIR}/../Tools/sourcery/sourcery.yml" --verbose

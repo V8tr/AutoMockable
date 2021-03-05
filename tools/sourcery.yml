@@ -1,0 +1,6 @@
+sources:
+  - ../../PTVApp
+templates:
+  - ./Templates/AutoMockable.stencil
+output:
+  ../../PTVApp/PTVApp-iOSTests/Helpers/Generated
