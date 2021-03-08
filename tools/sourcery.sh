@@ -1,1 +1,2 @@
-"${PROJECT_DIR}/../Tools/sourcery/bin/sourcery" --config "${PROJECT_DIR}/../Tools/sourcery/sourcery.yml" --verbose
+SOURCERY="Sourcery-1.3.2"
+"${PROJECT_DIR}/tools/${SOURCERY}/bin/sourcery" --config "${PROJECT_DIR}/tools/sourcery.yml" --verbose

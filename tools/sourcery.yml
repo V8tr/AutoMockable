@@ -1,6 +1,6 @@
 sources:
-  - ../../PTVApp
+  - ../AutoMockable
 templates:
   - ./Templates/AutoMockable.stencil
 output:
-  ../../PTVApp/PTVApp-iOSTests/Helpers/Generated
+  ../AutoMockableTests/Generated

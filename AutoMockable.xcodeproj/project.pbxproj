@@ -13,6 +13,12 @@
 		721257A525F2463200612C18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721257A425F2463200612C18 /* Preview Assets.xcassets */; };
 		721257B025F2463300612C18 /* AutoMockableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721257AF25F2463300612C18 /* AutoMockableTests.swift */; };
 		721257BB25F2463300612C18 /* AutoMockableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721257BA25F2463300612C18 /* AutoMockableUITests.swift */; };
+		7280FCCD25F55D3F006F0844 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280FCCC25F55D3F006F0844 /* HTTPClient.swift */; };
+		7280FCE325F6B347006F0844 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280FCE225F6B347006F0844 /* Cancellable.swift */; };
+		7280FCE825F6B422006F0844 /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280FCE725F6B422006F0844 /* ErrorPresenter.swift */; };
+		7280FCF225F6B565006F0844 /* ErrorPresenter+AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280FCEF25F6B565006F0844 /* ErrorPresenter+AutoMockable.generated.swift */; };
+		7280FCF325F6B565006F0844 /* Cancellable+AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280FCF025F6B565006F0844 /* Cancellable+AutoMockable.generated.swift */; };
+		7280FCF425F6B565006F0844 /* HTTPClient+AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280FCF125F6B565006F0844 /* HTTPClient+AutoMockable.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		721257B625F2463300612C18 /* AutoMockableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoMockableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		721257BA25F2463300612C18 /* AutoMockableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMockableUITests.swift; sourceTree = "<group>"; };
 		721257BC25F2463300612C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7280FCCC25F55D3F006F0844 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		7280FCE225F6B347006F0844 /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		7280FCE725F6B422006F0844 /* ErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
+		7280FCEF25F6B565006F0844 /* ErrorPresenter+AutoMockable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ErrorPresenter+AutoMockable.generated.swift"; sourceTree = "<group>"; };
+		7280FCF025F6B565006F0844 /* Cancellable+AutoMockable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cancellable+AutoMockable.generated.swift"; sourceTree = "<group>"; };
+		7280FCF125F6B565006F0844 /* HTTPClient+AutoMockable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HTTPClient+AutoMockable.generated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,9 @@
 			children = (
 				7212579D25F2463100612C18 /* AutoMockableApp.swift */,
 				7212579F25F2463100612C18 /* ContentView.swift */,
+				7280FCCC25F55D3F006F0844 /* HTTPClient.swift */,
+				7280FCE225F6B347006F0844 /* Cancellable.swift */,
+				7280FCE725F6B422006F0844 /* ErrorPresenter.swift */,
 				721257A125F2463200612C18 /* Assets.xcassets */,
 				721257A625F2463200612C18 /* Info.plist */,
 				721257A325F2463200612C18 /* Preview Content */,
@@ -115,6 +130,7 @@
 		721257AE25F2463300612C18 /* AutoMockableTests */ = {
 			isa = PBXGroup;
 			children = (
+				7280FCD125F6B16E006F0844 /* Generated */,
 				721257AF25F2463300612C18 /* AutoMockableTests.swift */,
 				721257B125F2463300612C18 /* Info.plist */,
 			);
@@ -128,6 +144,16 @@
 				721257BC25F2463300612C18 /* Info.plist */,
 			);
 			path = AutoMockableUITests;
+			sourceTree = "<group>";
+		};
+		7280FCD125F6B16E006F0844 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7280FCF025F6B565006F0844 /* Cancellable+AutoMockable.generated.swift */,
+				7280FCEF25F6B565006F0844 /* ErrorPresenter+AutoMockable.generated.swift */,
+				7280FCF125F6B565006F0844 /* HTTPClient+AutoMockable.generated.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 721257C225F2463300612C18 /* Build configuration list for PBXNativeTarget "AutoMockableTests" */;
 			buildPhases = (
+				7254D15525F5585B0030D297 /* Sourcery */,
 				721257A725F2463300612C18 /* Sources */,
 				721257A825F2463300612C18 /* Frameworks */,
 				721257A925F2463300612C18 /* Resources */,
@@ -254,13 +281,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7254D15525F5585B0030D297 /* Sourcery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Sourcery;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/tools/sourcery.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7212579625F2463100612C18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				721257A025F2463100612C18 /* ContentView.swift in Sources */,
+				7280FCE825F6B422006F0844 /* ErrorPresenter.swift in Sources */,
 				7212579E25F2463100612C18 /* AutoMockableApp.swift in Sources */,
+				7280FCE325F6B347006F0844 /* Cancellable.swift in Sources */,
+				7280FCCD25F55D3F006F0844 /* HTTPClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +319,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7280FCF425F6B565006F0844 /* HTTPClient+AutoMockable.generated.swift in Sources */,
 				721257B025F2463300612C18 /* AutoMockableTests.swift in Sources */,
+				7280FCF225F6B565006F0844 /* ErrorPresenter+AutoMockable.generated.swift in Sources */,
+				7280FCF325F6B565006F0844 /* Cancellable+AutoMockable.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
