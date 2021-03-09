@@ -1,4 +1,4 @@
-## Article related to this project
+## Articles related to this project
 
 - [Code Generating Swift Mocks with Sourcery](https://www.vadimbulavin.com/mocking-in-swift-using-sourcery/)
 - [Unit Testing Asynchronous Code in Swift](https://www.vadimbulavin.com/unit-testing-async-code-in-swift/)
