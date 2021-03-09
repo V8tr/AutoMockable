@@ -23,7 +23,7 @@ protocol HTTPClient {
 }
 ```
 
-Now when you build your Xcode project test target, Sourcery will generate `HTTPClient+AutoMockable.generated` that is ready for use in your tests.
+Then build your Xcode project test target. During the build phase, Sourcery will generate `HTTPClient+AutoMockable.generated.swift` that is ready for use in your tests.
 
 ### Sample test
 
