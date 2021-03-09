@@ -79,7 +79,7 @@ class HTTPClientMock: HTTPClient {
 }
 ```
 
-The unit tests look like:
+The next test verifies that `CurrenciesAPIService` correctly handles malformed data in response:
 
 ```swift
 import Foundation
@@ -91,19 +91,25 @@ class CurrenciesAPIServiceTests: XCTestCase {
     let httpClient = HTTPClientMock()
     lazy var sut = CurrenciesAPIService(httpClient: httpClient)
 
-    func test_allCurrencies_withResponseFailure_returnsOriginalError() throws {
+    func test_allCurrencies_withMalformedData_returnsError() throws {
         httpClient.executeRequestCompletionClosure = { _, completion in
-            completion(.failure(DummyError()))
+            completion(.success(Data()))
         }
 
         var result: Result<[CurrencyDTO], Error>?
 
         sut.allCurrencies { result = $0 }
 
-        XCTAssertThrowsError(try result?.get()) { err in
-            XCTAssertEqual(err.localizedDescription, "DummyError")
-        }
+        XCTAssertThrowsError(try result?.get())
     }
+}
+```
+
+Verify `CurrenciesAPIService` correctly parses a response with valid payload:
+
+```swift
+class CurrenciesAPIServiceTests: XCTestCase {
+    ...
 
     func test_allCurrencies_withResponseSuccess_returnsValidData() throws {
         let expected = CurrencyDTO(
@@ -122,12 +128,6 @@ class CurrenciesAPIServiceTests: XCTestCase {
         sut.allCurrencies { result = $0 }
 
         XCTAssertEqual(try result?.get(), [expected])
-    }
-}
-
-struct DummyError: LocalizedError {
-    var errorDescription: String? {
-        return "DummyError"
     }
 }
 ```
