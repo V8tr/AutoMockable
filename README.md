@@ -93,7 +93,7 @@ class CurrenciesAPIServiceTests: XCTestCase {
 
     func test_allCurrencies_withMalformedData_returnsError() throws {
         httpClient.executeRequestCompletionClosure = { _, completion in
-            completion(.success(Data()))
+            completion(.success(Data())) // <--- Stub malformed data
         }
 
         var result: Result<[CurrencyDTO], Error>?
@@ -120,7 +120,7 @@ class CurrenciesAPIServiceTests: XCTestCase {
         )
         let data = try JSONEncoder().encode([expected])
         httpClient.executeRequestCompletionClosure = { _, completion in
-            completion(.success(data))
+            completion(.success(data)) // <--- Stub valid data
         }
 
         var result: Result<[CurrencyDTO], Error>?
