@@ -52,14 +52,6 @@ final class CurrenciesAPIService {
         }
     }
 }
-
-extension URLRequest {
-    static func allCurrencies() -> URLRequest {
-        let rawPath = "https://gist.githubusercontent.com/V8tr/b8d3e63f7d987d3298cc83c9362f1c6e/raw/ad3f8f697835ec2dbd9a36779f84ffed9911c8aa/currencies.json"
-        guard let url = URL(string: rawPath) else { fatalError() }
-        return URLRequest(url: url)
-    }
-}
 ```
 
 And a generated `HTTPClientMock`:
@@ -145,5 +137,4 @@ struct DummyError: LocalizedError {
         return "DummyError"
     }
 }
-
 ```
