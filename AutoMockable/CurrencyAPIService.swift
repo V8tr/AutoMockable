@@ -14,7 +14,7 @@ struct CurrencyDTO: Codable, Equatable {
     let countryCode: String
 }
 
-class RealCurrenciesAPIService {
+class CurrenciesAPIService {
     private let httpClient: HTTPClient
 
     init(httpClient: HTTPClient) {
