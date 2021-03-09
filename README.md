@@ -30,13 +30,6 @@ Then build your Xcode project test target. During the build phase, Sourcery will
 Given `CurrenciesAPIService` that we want to test:
 
 ```swift
-struct CurrencyDTO: Codable, Equatable {
-    let currencyCode: String
-    let country: String
-    let currencyName: String
-    let countryCode: String
-}
-
 final class CurrenciesAPIService {
     private let httpClient: HTTPClient
 
